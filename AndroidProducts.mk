@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_i9100.mk
+    
+COMMON_LUNCH_CHOICES := \
+    lineage_i9100-user \
+    lineage_i9100-userdebug \
+    lineage_i9100-eng
